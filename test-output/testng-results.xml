@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2510" started-at="2019-10-30T07:40:52Z" finished-at="2019-10-30T07:40:55Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2510" started-at="2019-10-30T07:40:52Z" finished-at="2019-10-30T07:40:55Z">
+      <class name="www.ilab.test.DataDriven">
+        <test-method status="PASS" signature="display(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:www.ilab.test.DataDriven@1ee9faa]" name="display" duration-ms="17" started-at="2019-10-30T09:40:55Z" data-provider="run" finished-at="2019-10-30T09:40:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[clicklink]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CAREERS]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[linkText]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display -->
+        <test-method status="PASS" signature="display(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:www.ilab.test.DataDriven@1ee9faa]" name="display" duration-ms="2" started-at="2019-10-30T09:40:55Z" data-provider="run" finished-at="2019-10-30T09:40:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[click]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//a[contains(.,'South Africa')]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display -->
+        <test-method status="PASS" signature="display(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:www.ilab.test.DataDriven@1ee9faa]" name="display" duration-ms="3" started-at="2019-10-30T09:40:55Z" data-provider="run" finished-at="2019-10-30T09:40:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[click]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/html/body/section/div[2]/div/div/div/div[3]/div[2]/div/div/div/div/div/div[1]/div[1]/div[2]/span[1]/a]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display -->
+        <test-method status="PASS" signature="display(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:www.ilab.test.DataDriven@1ee9faa]" name="display" duration-ms="2" started-at="2019-10-30T09:40:55Z" data-provider="run" finished-at="2019-10-30T09:40:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[click]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//a[contains(.,'Apply Online')]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display -->
+        <test-method status="PASS" signature="display(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:www.ilab.test.DataDriven@1ee9faa]" name="display" duration-ms="2" started-at="2019-10-30T09:40:55Z" data-provider="run" finished-at="2019-10-30T09:40:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sendKeys]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[applicant_name]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display -->
+        <test-method status="PASS" signature="display(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:www.ilab.test.DataDriven@1ee9faa]" name="display" duration-ms="14" started-at="2019-10-30T09:40:55Z" data-provider="run" finished-at="2019-10-30T09:40:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sendKeysemail]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[email]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display -->
+        <test-method status="PASS" signature="display(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:www.ilab.test.DataDriven@1ee9faa]" name="display" duration-ms="1" started-at="2019-10-30T09:40:55Z" data-provider="run" finished-at="2019-10-30T09:40:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sendKeysphone]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[phone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display -->
+        <test-method status="PASS" signature="display(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:www.ilab.test.DataDriven@1ee9faa]" name="display" duration-ms="17" started-at="2019-10-30T09:40:55Z" data-provider="run" finished-at="2019-10-30T09:40:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[clicksubmit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wpjb_submit]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display -->
+        <test-method status="PASS" signature="display(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:www.ilab.test.DataDriven@1ee9faa]" name="display" duration-ms="3" started-at="2019-10-30T09:40:55Z" data-provider="run" finished-at="2019-10-30T09:40:55Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display -->
+      </class> <!-- www.ilab.test.DataDriven -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

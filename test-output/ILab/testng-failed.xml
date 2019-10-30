@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ILab]">
+  <test name="TestIlab1(failed)">
+    <parameter name="browserName" value="IE"/>
+    <classes>
+      <class name="www.ilab.test.AutomationILab">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="applyPosition"/>
+        </methods>
+      </class> <!-- www.ilab.test.AutomationILab -->
+    </classes>
+  </test> <!-- TestIlab1(failed) -->
+</suite> <!-- Failed suite [ILab] -->

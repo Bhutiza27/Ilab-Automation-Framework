@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AutomationILab">
+  <test name="firefoxTest">
+  
+  <parameter name = "browserName" value ="firefox"/>
+     <classes>
+  <class name = "www.ilab.test.AutomationILab"/>
+  
+    </classes>
+  </test> 
+  
+   <test name="IETest">
+  
+   <parameter name = "browserName" value ="IE"/>
+  <classes>
+  <class name = "www.ilab.test.AutomationILab"/>
+  
+    </classes>
+  </test>
+</suite> 
